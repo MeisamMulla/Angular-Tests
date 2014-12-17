@@ -1,0 +1,1 @@
+So AngularJS seems to be the new craze these days. This is my attempt to learn it.
