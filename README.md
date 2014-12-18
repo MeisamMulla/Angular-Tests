@@ -1,1 +1,1 @@
-So AngularJS seems to be the new craze these days. This is my attempt to learn it.
+So AngularJS seems to be the new craze these days. This is my attempt to learn it and publishing it to github lets me work on it from the office and the house. Do not judge.

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="liveupdate">
+<head>
+    <title>Live form update</title>
+
+    <link rel="stylesheet" href="../src/bootstrap/css/bootstrap.min.css" />
+
+</head>
+<body ng-controller="MainController as main">
+    <script type="text/javascript" src="../src/angular/angular.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    
+    <div class="container">
+    	<div class="col-md-12">
+    		<p>Enter your name in the following textbox: <input type="text" ng-model="form.title" /></p>
+
+		    <h3 ng-show="form.title">{{main.greeting + form.title}}!</h3>
+		    <p ng-hide="!form.title">Isn't Angular.JS pretty cool to use?</p>
+    	</div>
+    </div>
+</body>
+</html>
